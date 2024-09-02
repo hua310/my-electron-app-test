@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Electron_test</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <h1>这是 Electron 🍍🤢👻👽👾💩</h1>
+    <button id="btn">点击</button>
+    <br>
+    <br>
+    <hr>
+    <text>输入文字：</text>
+    <input id="input" type="text">
+    <button id="btn2">点击保存</button>
+    <br>
+    <br>
+    <button id="btn3">读取.txt文件</button>
+    <div class="level">
+      <div class="text"></div>
+    </div>
+
+    <div id="container">
+        <video id="gum-local" autoplay playsinline></video>
+    </div>
+    <button id="showVideo">打开视频</button>
+    <script type="text/javascript" src="./render.js"></script>
+  </body>
+
+</html>
